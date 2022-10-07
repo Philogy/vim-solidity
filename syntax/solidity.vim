@@ -130,6 +130,7 @@ syn keyword yulVarDeclaration    contained let
 hi def link yul                 Keyword
 hi def link yulVarDeclaration   Keyword
 hi def link yulAssemblyOp       Keyword
+hi def link yulControlFlow      Keyword
 
 " Contract
 syn match   solContract          /\<\%(contract\|library\|interface\)\>/ nextgroup=solContractName skipwhite
