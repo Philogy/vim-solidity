@@ -97,7 +97,7 @@ hi def link solBuiltinFunction   Keyword
 
 syn match   solOperator          /\(!\||\|&\|+\|-\|<\|>\|=\|%\|\/\|*\|\~\|\^\)/
 syn match   solNumber            /\<-\=\d\+L\=\>\|\<0[xX]\x\+\>/
-syn match   solFloat             /\<-\=\%(\d\+\.\d\+\|\d\+\.\|\.\d\+\)\%([eE][+-]\=\d\+\)\=\>/
+syn match   solFloat             /\<-\=\%(\d\+\%(\.\d\+\|\d\+\.\|\.\d\+\)\=\)\%([eE][+-]\=\d\+\)\=\>/
 syn region  solString            start=+"+  skip=+\\\\\|\\$"\|\\"+  end=+"+
 syn region  solString            start=+'+  skip=+\\\\\|\\$'\|\\'+  end=+'+
 
